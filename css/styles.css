@@ -1,0 +1,14 @@
+#title {
+    background-color: #2b78e4;
+}
+
+h1{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
