@@ -25,7 +25,7 @@
     <div class="container-fluid">
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark">
-      <a class="navbar-brand" href="#">AITinder</a>
+      <a class="navbar-brand" href="#"><i class="fas fa-fire"></i> AITinder</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -50,11 +50,11 @@
     <div class="row">
       <div class="col-lg-6">
         <h1>Meet new and interesting students nearby.</h1>
-        <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i> Download</button>
-        <button type="button" class="btn btn-light btn-lg"><i class="fab fa-google-play"></i> Download</button>
+        <button type="button" class="btn btn-dark btn-lg download-btn"><i class="fab fa-apple"></i> Download</button>
+        <button type="button" class="btn btn-light btn-lg download-btn"><i class="fab fa-google-play"></i> Download</button>
       </div>
       <div class="col-lg-6">
-        <img src="images/iphone6.png" alt="iphone-mockup">
+        <img src="images/iphone6.png" alt="iphone-mockup" class="title-img">
       </div>
     </div>
     </div>
@@ -64,16 +64,23 @@
   <!-- Features -->
 
   <section id="features">
-
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your dog could do it.</p>
-
-    <h3>Elite Clientele</h3>
-    <p>You can even find teachers in our app. o_O</p>
-
-    <h3>Guaranteed to work.</h3>
-    <p>Find friends or the love of your life or your money back.</p>
-
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <i class="fas fa-check-circle fa-4x icon"></i>
+        <h3>Easy to use.</h3>
+        <p>So easy to use, even your dog could do it.</p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <i class="fas fa-bullseye fa-4x icon"></i>
+        <h3>Elite Clientele</h3>
+        <p>You can even find teachers in our app. o_O</p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <i class="fas fa-heart fa-4x icon"></i>
+        <h3>Guaranteed to work.</h3>
+        <p>Find friends or the love of your life or your money back.</p>
+      </div>
+    </div>
   </section>
 
 
@@ -81,13 +88,26 @@
 
   <section id="testimonials">
 
-    <h2>I don't have to watch a bunch of videos on the internet anymore, because I found a friend who helps with Java.</h2>
-    <img src="images/lady-img.jpg" alt="lady-profile">
-    <em>1 course. Cyber Security</em>
-
-    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
+    <div id="carouselControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>I don't have to watch a bunch of videos on the internet anymore because I found a friend who helps me with Java.</h2>
+          <img src="images/lady-img.jpg" alt="lady-profile" class="testimonial-img">
+          <em>1 course. Cyber Security</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">My friend used to be so lonely, but with AITinder's help, they've found the love of their life. I think.</h2>
+          <img class="testimonial-image" src="images/couple.jpg" alt="couple-profile">
+          <em>Nur-Sultan, Ishim river</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
 
   </section>
 
@@ -95,10 +115,10 @@
   <!-- Press -->
 
   <section id="press">
-    <img src="images/techcrunch.png" alt="tc-logo">
-    <img src="images/tnw.png" alt="tnw-logo">
-    <img src="images/bizinsider.png" alt="biz-insider-logo">
-    <img src="images/mashable.png" alt="mashable-logo">
+    <img src="images/techcrunch.png" alt="tc-logo" class="press-logo">
+    <img src="images/tnw.png" alt="tnw-logo" class="press-logo">
+    <img src="images/bizinsider.png" alt="biz-insider-logo" class="press-logo">
+    <img src="images/mashable.png" alt="mashable-logo" class="press-logo">
 
   </section>
 
