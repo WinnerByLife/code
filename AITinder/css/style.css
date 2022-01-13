@@ -1,0 +1,129 @@
+body{
+
+}
+.navv{
+  font-family: 'Josefin Sans', sans-serif;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.btn2{
+  position:absolute;
+  left:0;
+  right:0;
+  top:250px;
+  bottom:0;
+  margin:auto;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.btn3{
+  position:absolute;
+  left:0;
+  right:0;
+  top:40px;
+  bottom:0;
+  margin:15px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.intro_inner{
+  width: 100%;
+  max-width: 880px;
+  margin: 0 auto;
+}
+.intro_title{
+  bottom:1px;
+  right: 5px;
+  color: #fff;
+  font-size: 90px;
+  font-weight: 100px;
+  text-transform: uppercase;
+  position:absolute;
+  text-align: center;
+  margin:auto;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 1% 15%;
+
+}
+.sup_title{
+  top:0px;
+  bottom: 1px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 100px;
+  text-transform: uppercase;
+  position:absolute;
+  text-align: center;
+  margin:auto;
+  font-family: 'Vujahday Script', cursive;
+  padding: 1% 15%;
+}
+.title_ss{
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+.navbar-brand {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0;
+}
+#features {
+  padding: 7% 15%;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+}
+.section{
+  background: url("../image/00.jpg") ;
+  background-size: cover;
+  padding: 250px 20px;
+}
+.icon {
+  margin-bottom: 1.5rem;
+  color: #808080;
+}
+
+.icon:hover {
+  color: #000000;
+}
+.section3{
+  padding: 1% 15%;
+  text-align: center;
+  background: url("../image/section3.jpg") ;
+  background-size: cover;
+  color: #fff;
+}
+h2{
+  line-height: 1.5;
+}
+.poster{
+  border-radius: 100%;
+  width: 25%;
+  margin: 20px;
+}
+.press{
+  text-align:center;
+  padding-bottom:3%;
+}
+.logo{
+  width: 20%;
+  margin: 30px;
+}
