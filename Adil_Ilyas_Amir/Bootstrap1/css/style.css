@@ -1,0 +1,105 @@
+body{
+
+}
+.navv{
+  font-family: 'Josefin Sans', sans-serif;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.btn3{
+  position:absolute;
+  left:0;
+  right:0;
+  top:290px;
+  bottom:0;
+  margin:15px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.intro_inner{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title_ss{
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.navbar-brand {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0;
+}
+#features {
+  padding: 7% 15%;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+}
+.section{
+  background: url("../image/bg1.jpg") ;
+  background-size: cover;
+  padding: 250px 20px;
+  display: grid;
+
+}
+.icon {
+  margin-bottom: 1.5rem;
+  color: #808080;
+}
+
+.icon:hover {
+  color: #000000;
+}
+.section3{
+  padding: 1% 15%;
+  text-align: center;
+  background: url("../image/bg2.jpg") ;
+  background-size: cover;
+  color: #fff;
+}
+h2{
+  line-height: 1.5;
+}
+.poster{
+  width: 25%;
+  margin: 20px;
+}
+.press{
+  text-align:center;
+  padding-bottom:3%;
+}
+.logo{
+  width: 20%;
+  margin: 30px;
+}
+
+.card{
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.card-img-top{
+  border-radius: 5%;
+  width: 100px;
+  height: 400px;
+}
+.card-group{
+  text-align: center;
+  margin-left:  180px;
+  padding: 3%;
+}
